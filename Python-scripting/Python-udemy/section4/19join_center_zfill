@@ -1,0 +1,18 @@
+print(" JOIN STRING")
+x="python"
+y="-".join(x)
+print(y)
+print(x)
+print("*".join(x))
+print("\n".join(x))
+print("\t".join(x))
+print("\t")
+print(" CENTER STRING")
+my_str="python"
+my_new_string="python scripting"
+my_str1="string operation"
+print(my_str.center(20))
+print("  ")
+print(f"{my_str.center(20)}\n{my_new_string.center(20)}\n{my_str1.center(20)}")
+print(" ZFILL STRING or PADDING")
+print(my_str.zfill(10))

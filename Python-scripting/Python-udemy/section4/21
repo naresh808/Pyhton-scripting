@@ -1,0 +1,23 @@
+x="python is easy and it is poplor language"
+print(x.count('is'))
+print(x.count('p'))
+print(x.count('t'))
+print(x.count('a'))
+print(x.count('easy'))
+print(x.index('p'))
+print("index position always startsf rom left to right")
+print(x.index('p',1))
+print(x.index('p',26))
+#print(x.index('p',28))
+print(x.index('is'))
+#print(x.index('is',23))
+print(x.find('p'))
+print(x.find('p',2))
+print(x.find('p',26))
+print(x.find('p',28))
+print(x.find('z'))
+print(x)
+java_version="java version 1.6"
+print(java_version.find("java"))
+java_version="Error while finding"
+print(java_version.find("java"))

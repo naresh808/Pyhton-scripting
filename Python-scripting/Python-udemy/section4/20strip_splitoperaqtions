@@ -1,0 +1,36 @@
+print("STRIP METHOD. BYDEFAULT strip removes the empty spaces at the start or end of the string")
+x="python"
+print(x)
+y="  python     "
+print(y)
+print(y.strip())
+print("other-than spaces it will remove letters also which are end of the both sides")
+print(x.strip('p'))
+print(x.strip('n'))
+print(x.strip('t'))
+str="python scripting is easy"
+print(str.strip('easy'))
+str1="python scripting is easy python"
+print("STRIP METHOD WILL REMOVES BOTH SIDES IF IT MATCHES THE CHAR OR STRING")
+print(str1.strip('python'))
+print("To remove one side as per our wish")
+print(str1.rstrip('python'))
+print(str1.lstrip('python'))
+z="python./i"
+z=z.strip('./i')
+print(z)
+z1="pythonyy"
+print(z1.strip('p'))
+print("CAN USE STRIP() MULTIPLE TIMES AT A TIME")
+print(z1.strip('p').strip('y'))
+print("WE CAN USE STRIP()S COMBINATIONS AL WELL")
+print(z1.strip('p').rstrip('y'))
+print(str1.lstrip('python').rstrip('python'))
+print("SPILT(). WHEREVER SPACES IS THERE THEN THIS METHODS SPILTS THEM AS SEPARATE STRING")
+z2="python is easy"
+print(z2)
+print(z2.split())
+print(z2.split('is'))
+z3="python is easy and it is very popular"
+print(z3)
+print(z3.split('is'))
